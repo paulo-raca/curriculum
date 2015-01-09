@@ -1,0 +1,219 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry} 
+\usepackage{helvet} \renewcommand{\familydefault}{\sfdefault}
+\title{Curriculum - Paulo Costa}
+\author{Paulo Costa}  
+\usepackage[utf8]{inputenc}
+\begin{document}  
+  \LARGE\textbf{Paulo Roberto de Almeida Costa}
+
+  \large me@paulo.costa.nom.br
+
+  \large Phone: +55 (19) 9345-6800
+
+  \large Campinas - SP - Brazil
+
+  \normalsize 
+  \section{Education}
+    \begin{itemize}
+      \item  
+        \textbf{Computer Engineering} - IC/Unicamp
+
+        Study Certificates:
+        \begin{itemize}
+          \item Visual Computing
+          \item Project of Dedicated Hardware Systems
+          \item Software Engineering
+          \item Project of Information Systems
+        \end{itemize}
+
+        Grade Point Average: 7.7  (0-10)
+
+        Period: March/2006 to December/2010.
+
+%       \item  
+%         \textbf{Computer Science} - IC/Unicamp
+% 
+%         Period: August/2011 to June/2013 (Expected).
+
+      \item  
+        \textbf{Technician in Eletronics} - Cotuca/Unicamp
+
+        Grade Point Average: 7.3  (0-10)
+
+        Period: February/2007 to December/2010. {\small(During 2$^{nd}$ and 3$^{rd}$ years of college)}
+
+      \item  
+        \textbf{Technician in Informatics} - Cotuca/Unicamp
+
+        Emphasis in Support Systems
+
+        Grade Point Average: 8.8  (0-10)
+
+        Period: February/2003 to December/2006. {\small(During high school)}
+
+    \end{itemize}
+
+  \section{Professional Experience}
+    \begin{itemize}
+      \item  
+        \textbf{Veridis Tecnologia}
+
+        The company started assembling an embedded system used for biometric access control projected by another company. This systemas is tipically used with doors and turnstiles. Soon, the company started to develop customized software solutions to be used with it.
+
+        As the company grew, it developed it's own embedded systems projects and it's own software libraries, including a biometric SDK.
+
+        Some of the most important things I worked on:
+        \begin{itemize}
+          \item Development of a new firmware for the access control system, based on the embedded Linux distros \emph{buildroot}, and \emph{OpenWRT}. The communication protocol from the original system was reverse-engineered to mantain compatibility.
+	  \item Development of Linux drivers for character LCDs and Wiegand interfaces connected on GPIOs.
+	  \item Hardware project of newer version of the embedded system.
+          \item Design of a thread-safe, event-driven API for acessing biometric scanners, and supported a series of fingerprint and vascular scanners. Most devices were reverse-engineered and are supported through libusb-based drivers.
+          \item Supported for a series of biometric template formats, including ISO and ANSI formats for fingerprints and many vendor-specific formats have been reverse-engineered.
+          \item Prototyping os biometric scanners, including an optic fingerprint scanner and a contactless vascular scanner for palmp, able to automatically capture an image when the hand is placed at the optimal position.
+          \item Improved existing algorithm do extract palm vascular images, obtaining better results and much better speed.
+          \item Have projected and implementated most parts of the Biometric SDK. It supports many biometry types, many devices, many data formats and runs on many platforms.
+          \item Developed and maintance of wrapper libraries, sample applications e documentation for various platforms.
+          \item Technical support.
+        \end{itemize}
+
+        Period: September/2009 to Present. {\small(Last 3 semesters of college)}
+
+      \item  
+        \textbf{Griaule Biometrics}
+
+        Griaule is a small company which provides a fingerprint recognition SDK and other related products. The Fingerprint SDK provides all the operations needed to make a biometric application: Capture of fingerprint images from various devices, extraction of fingerprint templates from the images, and matching of fingerprint templates.
+
+        Except for the core image analysis and matching algorithms (which had dedicated people working on them), I had the chance to modify and enhance almost every functionality of every library. These are some of the most important things I worked on:
+        \begin{itemize}
+          \item Support for many new capture devices. Most devices were supported using vendor libraries, and other were reverse-engineered and supported through libusb-based drivers. (libusb-based drivers were developed either because we needed to support the device in Linux or because the vendor's library was too crap - Which happened quite often)
+          \item Modularization of capture libraries in a series of independent \emph{plugins}, loaded on-demand.
+          \item Improved licensing options to offer hardware-bound, online and trial licenses.
+          \item Support for new template formats: Instead of a single, proprietary format, it now supports a series of formats, including ISO and ANSI formats, and also supports templates encoded in Base64 or Hex.
+          \item Porting the SDKs to Linux.
+          \item Creation and Maintance of wrapper libraries in Java, .Net and ActiveX.
+          \item Creation and Maintance of sample applications in many languages / platforms.
+%           \item Maaaany bugs and memory leaks fixed.
+          \item Maintance of some internal systems (E-mail, Request Tracker, etc).
+        \end{itemize}
+
+        Period: May/2006 to September/2009. {\small(First 7 semesters of college)}
+
+      \item
+        \textbf{CPqD - Research and Development Center in Telecomunications}
+
+        CPqD is a huge company, running lots of projects of all kinds.
+
+        My department was responsible to develop and maintain some of the internal software components shared across many projects.
+
+        As a trainee, my job was to fix known bugs, write JUnit tests and to add new functionalities to existing components.
+
+        All components were made in Java, and they commonly used Hibernate, EJB, Struts and Jasper Reports.
+
+        Period: December/2005 to February/2006. {\small(Between high-school and college)}
+    \end{itemize}
+
+  \section{Languages}
+    \begin{itemize}
+      \item  
+        \textbf{English} - Advanced Level.
+
+        109/120 points on TOEFL iBT (November/2008).
+
+      \item  
+        \textbf{Portuguese} - Native Speaker.
+    \end{itemize}
+
+
+  \section{Main Projects}
+    \begin{itemize}
+      \item 
+        \textbf{charlcd-gpio} and \textbf{ttyWiegand} - Linux kernel modules to use HD44780 character LCDs connected on GPIOs and to communicate with Wiegand devices using GPIOs.
+
+      \item 
+        \textbf{JIPS} - Java Virtual Machine, able to run any class file. Has partial support for JNI, no Garbage collection.
+
+        Made with C++/Arch-C.
+
+      \item 
+        \textbf{Space Wars} - StarWars-like 3-D space battle game.
+
+        Made with Java, OpenGL, OpenAL and JInput.
+
+      \item 
+        \textbf{Mini-MIPS} - MIPS-like multi-cycle microprocessador. Implemented from behavioral VHDL to physical layout.
+
+        Made with GHDL, Cadence Encounter and Cadence Virtuoso.
+
+      \item 
+        \textbf{Rabiscomatic} - Plotter assembled from old printers and a ARM microcontroller.
+
+        Firmware and computer software written in C. USB interface.
+
+      \item 
+        \textbf{Calculatrix} - Plots math functions in in 2 or 3 dimensions.
+
+        Made with Java and OpenGL.
+
+      \item 
+        \textbf{3D Wohoo} - Libraries for drawing 2-D and 3-D computer graphics, built from the scratch.
+
+        Versions for Turbo Pascal, Delphi and Java.
+    \end{itemize}
+
+  \section{Programming Contests}
+    \begin{itemize}
+      \item 
+        \textbf{ICPC – International Collegiate Programming Contest - World Finals}
+        \begin{itemize}
+          \item 2008 - Honorable mention - Team GAP/Unicamp
+        \end{itemize}
+      \item 
+        \textbf{ICPC – International Collegiate Programming Contest - Brazilian Finals}
+        \begin{itemize}
+          \item 2007 (4$^{th}$ position - Team GAP/Unicamp), 2010 (8$^{th}$ position - Team Unicamp Alfa)
+        \end{itemize}
+      \item 
+        \textbf{IOI - International Olympiads in Informatics}
+        \begin{itemize}
+          \item 2006 - 122$^{nd}$ position (Bronze)
+        \end{itemize}
+      \item 
+        \textbf{CIIC - Ibero-american Contest in Informatics)}
+        \begin{itemize}
+          \item 2004 (Silver), 2006 (Silver)
+        \end{itemize}
+      \item
+        \textbf{OBI – Brazilian Olympiads in Informatics}
+        \begin{itemize}
+          \item 2003 (Silver), 2004 (Golden), 2005 (Bronze), 2006 (Golden)
+          \item 2010 and 2011 - Worked on the programming courses.
+        \end{itemize}
+      \item 
+        \textbf{Google Code Jam Latin America}
+        \begin{itemize}
+          \item 2007 – 80$^{th}$ position
+        \end{itemize}
+    \end{itemize}
+
+  \section{Courses Taken}
+    \begin{itemize}
+      \item 
+        \textbf{OBI's Advanced Programming Course} - IC / Unicamp
+        \begin{itemize}
+          \item 2003, 2004 and 2006
+        \end{itemize}
+      \item 
+        \textbf{Summer Programming Challenges} - IME / USP
+        \begin{itemize}
+          \item 2010
+        \end{itemize}
+      \item 
+        \textbf{Compiler Transformations and Mapping Techniques for Reconfigurable Architectures} - ICMC / USP
+        \begin{itemize}
+          \item 2011
+        \end{itemize}
+    \end{itemize}
+
+
+\end{document}
