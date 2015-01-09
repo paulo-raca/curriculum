@@ -1,0 +1,219 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry} 
+\usepackage{helvet} \renewcommand{\familydefault}{\sfdefault}
+\title{Currículo de Paulo Costa}
+\author{Paulo Costa}  
+\usepackage[utf8]{inputenc}
+\begin{document}  
+  \LARGE\textbf{Paulo Roberto de Almeida Costa}
+
+  \large eu@paulo.costa.nom.br
+
+  \large Telefone: (19) 9345-6800
+
+  \large Campinas - SP %- Brazil
+
+  \normalsize 
+  \section{Formação Acadêmica}
+    \begin{itemize}
+      \item  
+        \textbf{Engenharia de Computação} - IC/Unicamp
+
+        Certificados de Estudos:
+        \begin{itemize}
+          \item Computação Visual
+          \item Projeto de Sistemas de Hardware Dedicados
+          \item Engenharia de Software
+          \item Projeto de Sistemas de Informação
+        \end{itemize}
+
+        Média: 7,7 (0-10)
+
+        Período: Março/2006 a Dezembro/2010.
+
+      \item  
+        \textbf{Ciência da Computação} - IC/Unicamp
+
+        Período: Agosto/2011 a Junho/2013 (Esperado).
+
+      \item  
+        \textbf{Técnico em Eletroeletrônica} - Cotuca/Unicamp
+
+        Média: 7,3  (0-10)
+
+        Período: Fevereiro/2007 a Dezembro/2010. {\small(Durante o 2$^{o}$ e 3$^{o}$ anos da Universidade)}
+
+      \item  
+        \textbf{Técnico em Informática} - Cotuca/Unicamp
+
+        Ênfase em Sistemas de Suporte
+
+        Média: 8,8  (0-10)
+
+        Período: Fevereiro/2003 a Dezembro/2006. {\small(Durante o Ensino Médio)}
+
+    \end{itemize}
+
+  \section{Experiência Profissional}
+    \begin{itemize}
+      \item  
+        \textbf{Veridis Tecnologia}
+
+%         A Veridis começou como montadora de um projeto de sistema embarcado para controle de acesso biométrico projetado por outra empresa. Este sistema é tipicamente utilizado em portas e catracas. Em seguida, a empresa começou a desenvolver soluções de software personalizadas para serem usadas em conjunto com os sistemas de controle de acesso.
+
+%         Conforme a empresa cresceu, desenvolveu seus próprios projeto de sistemas embarcados para controle de acesso e suas próprias bibliotecas de software, incluindo um SDK biométrico.
+
+%         Algumas das coisas mais importantes em que trabalhei:
+        \begin{itemize}
+          \item Desenvolvimento de um novo firmware para o sistema embarcado de controle de acesso, baseado nas distribuições Linux embarcadas \emph{buildroot} e \emph{OpenWRT}. Foi realizada engenharia reversa do protocolo de comunicação do sistema original para manter a compatibilidade.
+	  \item Desenvolvimento de drivers para Linux de display de caracteres e interface Wiegand conectadas por GPIO.
+% 	  \item Projeto de hardware das novas versões do sistema embarcado para controle de acesso.
+          \item Projeto de uma API thread-safe e orientada a eventos para acesso de scanners biométricos, e suporte a uma série de leitores de impressão digital e vasculares. A maior parte dos dispositivos foi suportada por engenharia reversa através de drivers para libusb.
+          \item Suporte a uma série de formatos de templates biométricos, incluindo os formatos ISO and ANSI para impressão digital e diversos formatos proprietários através de engenharia reversa.
+          \item Prototipagem de scanners biométricos, incluindo um scanner de impressão digital ótico e um scanner vascular de palma da mão sem contato, capaz de capturar a imagem automaticamente quando a mão está colocada na posição ideal.
+%           \item Melhoria de um algoritmo existente para análise de imagens vasculares da palma da mão, obtendo melhores resultando e um enorme ganho de velocidade.
+%           \item Projeto e Implementação da maior parte do SDK Biométrico. Suporta diversos tipos de biometria, diversos dispositivos, diversos formatos de armazenamento de templates e roda em diversas plataformas.
+          \item Criação e manutenção de bibliotecas wrapper, aplicativos de exemplo e documentação para diversas plataformas.
+          \item Suporte técnico.
+        \end{itemize}
+
+        Periodo: desde Setembro/2009. {\small(Últimos 3 semestres da Universidade)}
+
+      \item  
+        \textbf{Griaule Biometrics}
+
+%         A Griaule é uma pequena empresa que fornece um SDK de reconhecimento de impressões digitais. O Fingerprint SDK possui todas as operações necessárias para criar uma aplicação biométrica: Captura da impressão a partir de diversos dispositivos, extração do template a partir das imagens e a comparação de similaridade entre templates.
+
+%         Exceto pelos algoritmos centrais de análise de imagens e comparação de similaridade de templates (Que tinham uma equipe dedicada trabalhando neles), eu tive a chance de modificar e melhorar quase todas as funcionalidades de todas as bibliotecas. Algumas das coisas mais importantes nas quais eu trabalhei foram:
+        \begin{itemize}
+          \item Suporte a muitos dispositivos de captura, a maioria deles através de bibliotecas do fabricante, e algumas por engenharia reversa, através de drivers para libusb. (Estes drivers para libusb foram desenvolvidos quando era necessário suporte para Linux, ou quando a biblioteca do fabricante era muito ruim - O que acontecia com alguma frequência)
+          \item Modularização da biblioteca de captura através de uma série de plugins, carregados sob demanda.
+          \item Melhorias de licencimento, com opções amarradas a hardware, online e trial.
+          \item Suporte para novos formatos de templates: Ao invés de um único formato proprietário, atualmente são suportados diversos formatos, incluindo os padrões ISO e ANSI e codificação Hexadecimal e em Base64.
+          \item Portei os SDKs para Linux.
+          \item Criação e manutenção de bibliotecas wrapper em Java, .Net e ActiveX.
+          \item Criação e manutenção de aplicativos de exemplo em diversas linguagens / platformas.
+%           \item Muuuuitos bugs e vazamentos de memória corrigidos.
+          \item Manutenção de alguns sistemas internos (E-mail, Request Tracker, etc).
+        \end{itemize}
+
+        Periodo: Maio/2006 a Setembro/2009. {\small(Primeiros 7 semestres da Universidade)}
+
+      \item
+        \textbf{CPqD - Centro de Pesquisa e Desenvolvimento em Telecomunicações}
+
+%         CPqD é um empresa muito grande, com muitos projetos de todos os tipos.
+
+%         O meu departamento era responsável por desenvolver e manter alguns dos componentes de software reutilizados em diversos projetos.
+
+        Como estagiário, meu trabalho consistia em corrigir bugs conhecidos, escrever testes JUnit e adicionar novas funcionalidades a componentes existentes.
+
+        Todos os componentes eram escritos em Java e tipicamente utilizavam Hibernate, EJB, Struts e Jasper Reports.
+
+        Período: Dezembro/2005 to Fevereiro/2006. {\small(Entre Ensino-Médio e Universidade)}
+    \end{itemize}
+
+  \section{Idiomas}
+    \begin{itemize}
+      \item  
+        \textbf{Inglês} - Nível avançado.
+
+        109/120 pontos no TOEFL iBT (Novembro/2008).
+
+%       \item  
+%         \textbf{Português} - Nativo.
+    \end{itemize}
+
+
+  \section{Principais Projetos}
+    \begin{itemize}
+      \item 
+        \textbf{charlcd-gpio} e \textbf{ttyWiegand} - Módulos para o Kernel Linux para o uso de LCDs de caracteres HD44780 conectados via GPIOs, e para comunicação com dispositivos Wiegand conectados via GPIOs.
+
+      \item 
+        \textbf{JIPS} - Máquina virtual Java capaz de rodar qualquer arquivo class. Possui suporte parcial a JNI, sem \emph{Garbage Collection}.
+
+        Programado usando C++/Arch-C.
+
+      \item 
+        \textbf{Space Wars} - Jogo de batalha espacial 3D, estilo \emph{Star-Wars}.
+
+        Programado usando Java, OpenGL, OpenAL e JInput.
+
+      \item 
+        \textbf{Mini-MIPS} - Projeto de um processador multi-ciclo semelhante ao MIPS. Foram implementadas todas as etapas, do VHDL comportamental ao layout físico.
+
+        Feito com GHDL, Cadence Encounter e Cadence Virtuoso.
+
+      \item 
+        \textbf{Rabiscomático} - Plotter montado a partir de impressoras antigas e um microcontrolador.
+
+        Firmware e software controlador escritos em C. Interface USB.
+
+      \item 
+        \textbf{Calculatrix} - Desenha gráficos de funções matemáticas em 2 ou 3 dimensões.
+
+        Programado usando Java e OpenGL.
+
+      \item 
+        \textbf{3D Wohoo} - Bibliotecas de computação gráfica em 2 e 3 dimensões, implementados do zero.
+
+        Versões em Turbo Pascal, Delphi e Java.
+    \end{itemize}
+
+  \section{Competições de programação}
+    \begin{itemize}
+      \item 
+        \textbf{ICPC – International Collegiate Programming Contest - Final Mundial}
+        \begin{itemize}
+          \item 2008 (Menção honrosa - Equipe GAP/Unicamp)
+        \end{itemize}
+      \item 
+        \textbf{Maratona Brasileira de Programação - Final Brasileira}
+        \begin{itemize}
+          \item 2007 (4º lugar - Equipe GAP/Unicamp), 2010 (8º lugar - Equipe Alpha/Unicamp)
+        \end{itemize}
+      \item 
+        \textbf{IOI - International Olympiads in Informatics}
+        \begin{itemize}
+          \item 2006 - 122º lugar (Bronze)
+        \end{itemize}
+      \item 
+        \textbf{CIIC - Competencia Iberoamericana de Informática por Correspondencia}
+        \begin{itemize}
+          \item 2004 (Prata), 2006 (Prata)
+        \end{itemize}
+      \item 
+        \textbf{OBI – Olimpíada Brasileira de Informática}
+        \begin{itemize}
+          \item 2003 (Prata), 2004 (Ouro), 2005 (Bronze), 2006 (Ouro)
+          \item 2010 e 2011 (Monitor dos cursos)
+        \end{itemize}
+      \item 
+        \textbf{Google Code Jam Latin America}
+        \begin{itemize}
+          \item 2007 – 80º Colocado
+        \end{itemize}
+    \end{itemize}
+
+  \section{Cursos}
+    \begin{itemize}
+      \item 
+        \textbf{Curso de Programação Avançada da OBI} - IC / Unicamp
+        \begin{itemize}
+          \item 2003, 2004 e 2006
+        \end{itemize}
+      \item 
+        \textbf{Desafios de Programação no Verão} - IME / USP
+        \begin{itemize}
+          \item 2010
+        \end{itemize}
+      \item 
+        \textbf{Compiler Transformations and Mapping Techniques for Reconfigurable Architectures} - ICMC / USP
+        \begin{itemize}
+          \item 2011
+        \end{itemize}
+    \end{itemize}
+
+
+\end{document}
