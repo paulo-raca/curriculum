@@ -1,7 +1,0 @@
-Olá!
-
-Quero fazer o curso para conhecer sobre a Bio-Informática, uma área totalmente nova para mim e que aparenta ser muito interessante e com grandes aplicações práticas.
-
-Em especial, gosto muito de conhecer, projetar ou otimizar algoritmos para todos os tipos de problemas (um gosto adquirido nas diversas competições de programação das quais participei), e estou certo que a análize de DNA deve envolver alguns algoritmos muito interessantes.
-
-Sou recém-formado em Engenharia da Computação, e atualmente trabalho na Veridis Tecnologia, uma empresa encubada dentro da Unicamp especializada em reconhecimento biométrico.
