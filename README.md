@@ -1,4 +1,4 @@
 # Paulo Costa's Curriculum #
-- [English](paulo.costa.nom.br/cv/en)
-- [PortuguÃªs](paulo.costa.nom.br/cv/pt)
-- [LinkedIn](paulo.costa.nom.br/linkedin)
+- [English](http://paulo.costa.nom.br/cv/en)
+- [Português](http://paulo.costa.nom.br/cv/pt)
+- [LinkedIn](http://paulo.costa.nom.br/linkedin)
