@@ -11,4 +11,4 @@ pt/PauloCosta.pdf: pt/PauloCosta.tex
 	rm pt/*.log pt/*.aux
 
 clean:
-	hg clean --all
+	git clean -fdx
