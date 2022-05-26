@@ -7,13 +7,13 @@
 \begin{document}
   \LARGE\textbf{Paulo Costa}
 
-  \large Computing Engineer
+  \large Software Engineer
 
   \large me@paulo.costa.nom.br
   
   \large https://github.com/paulo-raca
 
-%   \large Phone: +55 (19) 3241-3399
+%   \large Phone: +55 (19) 98301-9923
 
 %   \large Campinas - SP - Brazil
 
@@ -22,13 +22,23 @@
   \section{Professional Experience}
     \begin{itemize}
       \item
-        \textbf{Crowdstrike / Iperlane} - since October/2016
-        
-        Development of software container for Android, capable of running and monitoring 3rd party apps.
+        \textbf{Crowdstrike / Iperlane} - October/2016 to October/2021
+
+        Development of software container for Android apps, capable of installing, monitoring and executing 3rd
+        party apps isolated from the system and without extra permissions.
         
         The project was developed mostly in Java, with parts in C++, Kotlin and Python.
 
-        I was initially hired by Iperlane, which was acquired by CrowdStrike in October/2017.              
+        I also worked on several modules and tools of interest, including:
+
+        \begin{itemize}
+          \item \textbf{ADB Proxy}: Uses SSH tunnels to attach the local computer to a remote Android device. Useful for remote control and debugging.
+          \item \textbf{Jacoco Multiprocess}: Allows collecting coverage data on multiprocess Android apps
+          \item \textbf{Android-Full-Framework} - Gradle plugin for Android projects that expose every method/field from every Android Framework version as public at compile-time and then modifies the bytecode with the necessary boilerplate to access it. Very handy for hacking Android's internals.
+          \item \textbf{HiddenAPI} - Unlocks access to [Android's non-SDK interfaces](https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces)
+        \end{itemize}
+
+        I was initially hired by Iperlane, which was acquired by CrowdStrike in October/2017.
 
       \item
         \textbf{Geofusion} - April/2015 to October/2016
@@ -71,14 +81,16 @@
 
   \section{Education}
     \begin{itemize}
-      \item
-        \textbf{Specialization in Automation and Control of Industrial and Agro-Industrial Processes} - Feagri/Unicamp - desde Março/2019.
+      %\item
+      %  \textbf{Specialization in Automation and Control of Industrial and Agro-Industrial Processes} - Feagri/Unicamp - desde Março/2019.
 
       \item
         \textbf{Specialization in Complex Data Mining} - IC/Unicamp - March/2018 to August/2018.
 
       \item  
         \textbf{Computer Engineering} - IC/Unicamp - March/2006 to December/2010.
+
+%         Grade Point Average: 7.7  (0-10)
 
         Study Certificates:
         \begin{itemize}
@@ -87,8 +99,6 @@
           \item Software Engineering
           \item Project of Information Systems
         \end{itemize}
-
-        Grade Point Average: 7.7  (0-10)
 
 %       \item  
 %         \textbf{Computer Science} - IC/Unicamp - August/2011 to June/2013 (Expected)
@@ -122,119 +132,98 @@
 
 
 
-  \section{A few Projects}
+  \section{Some personal Projects}
     \begin{itemize}
-      \item 
-        \textbf{ADB Proxy} - Uses SSH tunnels to attach the local computer to a remote Android device, suitable for remote control and debugging.
-    
-      \item 
-        \textbf{Android-Full-Framework} - Gradle plugin for Android projects that expose every method/field from every Android Framework version as `public` at compile-time and then modifies the bytecode with the necessary boilerplate to access it. Very handy for hacking Android's internals.
-    
-      \item 
-        \textbf{MongoFS} and \textbf{SpotifyFS}- FUSE filesystem to manage documents in Mongo databases as JSON files and play Spotify songs as MP3 files.
-    
-      \item 
-        \textbf{MongoFS} - FUSE filesystem to manage documents in Mongo databases.
-    
-      \item 
+      \item
+        \textbf{u2fdev} FIDO U2F authenticator, with various storage backends (stateless, SQLite) and authentication methods (none, notification, biometric). Android app supporting NFC and Bluetooth is under development.
+
+      \item
+        \textbf{MongoFS} and \textbf{SpotifyFS}- FUSE filesystems to manage documents in Mongo databases as JSON files and play Spotify songs as MP3 files.
+
+      \item
         \textbf{Contour Curves for Highcharts} - Plugin to the popular Highcharts library to plot 2-D and 3-D contour curves.
-      
-      \item 
+
+      \item
         \textbf{Experimental Design} - Web interface to easily plan and analyze experiments using DOE methodologies.
 
-        Made with Python/webapp2 and javascript.
-        
-      \item 
+      \item
         \textbf{charlcd-gpio} e \textbf{ttyWiegand} - Linux kernel modules for driving HD44780-compatible character LCDs and to receive data from Wiegand deviced through GPIO pins.
 
-      \item 
-        \textbf{JIPS} - Java Virtual Machine, able to run any class file. Has partial support for JNI, no Garbage collection.
-
-        Made with C++/Arch-C.
+      \item
+        \textbf{JIPS} - Toy Java VM implemented in ArchC. Partial support for JNI, no Garbage collection, no threads.
 
       \item
-        \textbf{Space Wars} - StarWars-like 3-D space battle game.
+        \textbf{Space Wars} - StarWars-like 3-D space battle game writen with Java + OpenGL + OpenAL.
 
-        Made with Java, OpenGL, OpenAL and JInput.
-        
-      \item 
-        \textbf{Mini-MIPS} - MIPS-like multi-cycle microprocessador. Implemented from behavioral VHDL to physical layout.
+      \item
+        \textbf{Mini-MIPS} - MIPS-like multi-cycle microprocessador. Everything was developed, from behavioral VHDL to physical layout. Used GHDL, Cadence Encounter and Cadence Virtuoso.
 
-        Made with GHDL, Cadence Encounter and Cadence Virtuoso.
-
-      \item 
+      \item
         \textbf{Rabiscomatic} - Plotter assembled from old printers and a ARM microcontroller.
 
-        Firmware and computer software written in C. USB interface.
-
-      \item 
-        \textbf{Calculatrix} - Plots math functions in in 2 or 3 dimensions.
-
-        Made with Java and OpenGL.
-
-      \item 
-        \textbf{3D Wohoo} - Libraries for drawing 2-D and 3-D computer graphics, built from the scratch.
-
-        Versions for Turbo Pascal, Delphi and Java.
-    \end{itemize}
-
-
-
-  \section{Programming Contests}
-    \begin{itemize}
-      \item 
-        \textbf{ICPC – International Collegiate Programming Contest - World Finals}
-        \begin{itemize}
-          \item 2008 - Honorable mention - Team GAP/Unicamp
-        \end{itemize}
-      \item 
-        \textbf{ICPC – International Collegiate Programming Contest - Brazilian Finals}
-        \begin{itemize}
-          \item 2007 (4$^{th}$ position - Team GAP/Unicamp), 2010 (8$^{th}$ position - Team Unicamp Alfa)
-        \end{itemize}
-      \item 
-        \textbf{IOI - International Olympiads in Informatics}
-        \begin{itemize}
-          \item 2006 - 122$^{nd}$ position (Bronze)
-        \end{itemize}
-      \item 
-        \textbf{CIIC - Ibero-american Contest in Informatics)}
-        \begin{itemize}
-          \item 2004 (Silver), 2006 (Silver)
-        \end{itemize}
       \item
-        \textbf{OBI – Brazilian Olympiads in Informatics}
-        \begin{itemize}
-          \item 2003 (Silver), 2004 (Golden), 2005 (Bronze), 2006 (Golden)
-          \item 2010 and 2011 - Worked on the programming courses.
-        \end{itemize}
-      \item 
-        \textbf{Google Code Jam Latin America}
-        \begin{itemize}
-          \item 2007 – 80$^{th}$ position
-        \end{itemize}
+        \textbf{Calculatrix} - Plots math functions in in 2 or 3 dimensions. Developed with Java and OpenGL.
+
+      \item
+        \textbf{3D Wohoo} - Libraries for drawing 2-D and 3-D computer graphics, built from the scratch in Pascal/Delphi and Java.
     \end{itemize}
 
 
 
-  \section{Courses Taken}
-    \begin{itemize}
-      \item 
-        \textbf{OBI's Advanced Programming Course} - IC / Unicamp
-        \begin{itemize}
-          \item 2003, 2004 and 2006
-        \end{itemize}
-      \item 
-        \textbf{Summer Programming Challenges} - IME / USP
-        \begin{itemize}
-          \item 2010
-        \end{itemize}
-      \item 
-        \textbf{Compiler Transformations and Mapping Techniques for Reconfigurable Architectures} - ICMC / USP
-        \begin{itemize}
-          \item 2011
-        \end{itemize}
-    \end{itemize}
-
+%   \section{Programming Contests}
+%     \begin{itemize}
+%       \item
+%         \textbf{ICPC – International Collegiate Programming Contest - World Finals}
+%         \begin{itemize}
+%           \item 2008 - Honorable mention - Team GAP/Unicamp
+%         \end{itemize}
+%       \item
+%         \textbf{ICPC – International Collegiate Programming Contest - Brazilian Finals}
+%         \begin{itemize}
+%           \item 2007 (4$^{th}$ position - Team GAP/Unicamp), 2010 (8$^{th}$ position - Team Unicamp Alfa)
+%         \end{itemize}
+%       \item
+%         \textbf{IOI - International Olympiads in Informatics}
+%         \begin{itemize}
+%           \item 2006 - 122$^{nd}$ position (Bronze)
+%         \end{itemize}
+%       \item
+%         \textbf{CIIC - Ibero-american Contest in Informatics)}
+%         \begin{itemize}
+%           \item 2004 (Silver), 2006 (Silver)
+%         \end{itemize}
+%       \item
+%         \textbf{OBI – Brazilian Olympiads in Informatics}
+%         \begin{itemize}
+%           \item 2003 (Silver), 2004 (Golden), 2005 (Bronze), 2006 (Golden)
+%           \item 2010 and 2011 - Worked on the programming courses.
+%         \end{itemize}
+%       \item
+%         \textbf{Google Code Jam Latin America}
+%         \begin{itemize}
+%           \item 2007 – 80$^{th}$ position
+%         \end{itemize}
+%     \end{itemize}
+%
+%
+%
+%   \section{Courses Taken}
+%     \begin{itemize}
+%       \item
+%         \textbf{OBI's Advanced Programming Course} - IC / Unicamp
+%         \begin{itemize}
+%           \item 2003, 2004 and 2006
+%         \end{itemize}
+%       \item
+%         \textbf{Summer Programming Challenges} - IME / USP
+%         \begin{itemize}
+%           \item 2010
+%         \end{itemize}
+%       \item
+%         \textbf{Compiler Transformations and Mapping Techniques for Reconfigurable Architectures} - ICMC / USP
+%         \begin{itemize}
+%           \item 2011
+%         \end{itemize}
+%     \end{itemize}
 
 \end{document}
