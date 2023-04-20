@@ -1,6 +1,11 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \usepackage{helvet} \renewcommand{\familydefault}{\sfdefault}
+\usepackage{hyperref}
+\hypersetup{
+    linkcolor=blue,
+}
+
 \title{Curriculum - Paulo Costa}
 \author{Paulo Costa}  
 \usepackage[utf8]{inputenc}
@@ -13,16 +18,26 @@
   
   \large https://github.com/paulo-raca
 
-%   \large Phone: +55 (19) 98301-9923
+  \large Phone: +55 (19) 98301-9923
 
-%   \large Campinas - SP - Brazil
+  \large Campinas - SP - Brazil
 
   \normalsize 
   
   \section{Professional Experience}
     \begin{itemize}
       \item
-        \textbf{Crowdstrike / Iperlane} - October/2016 to October/2021
+        \textbf{SlashID} - Since 01/2023
+
+        Development of Identity Provider and Authorization Proxy in Go
+
+      \item
+        \textbf{Pass2Go} - 12/2021 to 01/2023
+
+        Development of Python + GraphQL backend for Pass2Go, a tool to speed up access to condos and office buildings with QR Codes
+
+      \item
+        \textbf{Crowdstrike / Iperlane} - 10/2016 to 10/2021
 
         Development of software container for Android apps, capable of installing, monitoring and executing 3rd
         party apps isolated from the system and without extra permissions.
@@ -35,20 +50,20 @@
           \item \textbf{ADB Proxy}: Uses SSH tunnels to attach the local computer to a remote Android device. Useful for remote control and debugging.
           \item \textbf{Jacoco Multiprocess}: Allows collecting coverage data on multiprocess Android apps
           \item \textbf{Android-Full-Framework} - Gradle plugin for Android projects that expose every method/field from every Android Framework version as public at compile-time and then modifies the bytecode with the necessary boilerplate to access it. Very handy for hacking Android's internals.
-          \item \textbf{HiddenAPI} - Unlocks access to [Android's non-SDK interfaces](https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces)
+          \item \textbf{HiddenAPI} - Unlocks access to Android's non-SDK interfaces
         \end{itemize}
 
-        I was initially hired by Iperlane, which was acquired by CrowdStrike in October/2017.
+        I was initially hired by Iperlane, which was acquired by CrowdStrike in 10/2017.
 
       \item
-        \textbf{Geofusion} - April/2015 to October/2016
+        \textbf{Geofusion} - 04/2015 to 10/2016
         
         Development of the Java backend and Web frontend of Onmaps, a tool for analisys and visualization of geospatial data, used mostly as marketing tool (Geomarketing).
         
         The project uses a Java backend, Web frontend, Orable database and spatial indexes in Solr.
 
       \item
-        \textbf{Facebook} - October/2012 to September/2014
+        \textbf{Facebook} - 10/2012 to 09/2014
         
         I've worked on the project responsible for managing all of Facebook's servers and other datacenter devices, and which acts as an intermediary between several automation tools, such as: Provisioning, application deployment, repairs, financial systems, data replication, monitoring, etc.
         
@@ -56,21 +71,21 @@
 
     
       \item  
-        \textbf{Veridis Tecnologia} - September/2009 to October/2012
+        \textbf{Veridis Tecnologia} - 09/2009 to 10/2012
 
         Veridis develops solutions for biometric access control (Fingerprints in special). I was responsible for developing the library for capture and  matching Fingerprints (Based on NBIS) and the firmware for a embedded system that controls biometric doors and turnstiles.
         
         Most Development was done in C++, but all libraries have APIs and samples in Java and C\#.
 
       \item  
-        \textbf{Griaule Biometrics} - May/2006 to September/2009
+        \textbf{Griaule Biometrics} - 05/2006 to 09/2009
 
         Griaule sells a software library for capture and matching of fingerprints. I was responsible with supporting several fingerprint scanners, Linux support, modularization and other improvements.
         
         Most development was done in C++, but there are bindings and examples for Java, Delphi, C\# and VB.
 
       \item
-        \textbf{CPqD - Research and Development Center in Telecomunications}, Intern - December/2005 to February/2006
+        \textbf{CPqD - Research and Development Center in Telecomunications}, Intern - 12/2005 to 02/2006
 
         As an intern, my job consisted in fixing known bugs, writing JUnit tests and add new features to existing components.
 
@@ -81,14 +96,16 @@
 
   \section{Education}
     \begin{itemize}
-      %\item
-      %  \textbf{Specialization in Automation and Control of Industrial and Agro-Industrial Processes} - Feagri/Unicamp - desde Março/2019.
+      \item
+        \textbf{Specialization in Automation and Control of Industrial and Agro-Industrial Processes} - Feagri/Unicamp - 03/2019 to 03/2020
+
+        (Unfinished due to COVID lockdown)
 
       \item
-        \textbf{Specialization in Complex Data Mining} - IC/Unicamp - March/2018 to August/2018.
+        \textbf{Specialization in Complex Data Mining} - IC/Unicamp - 03/2018 to 08/2018.
 
       \item  
-        \textbf{Computer Engineering} - IC/Unicamp - March/2006 to December/2010.
+        \textbf{Computer Engineering} - IC/Unicamp - 03/2006 to 12/2010.
 
 %         Grade Point Average: 7.7  (0-10)
 
@@ -101,15 +118,15 @@
         \end{itemize}
 
 %       \item  
-%         \textbf{Computer Science} - IC/Unicamp - August/2011 to June/2013 (Expected)
+%         \textbf{Computer Science} - IC/Unicamp - 08/2011 to 06/2013 (Expected)
 
       \item  
-        \textbf{Technician in Eletronics} - Cotuca/Unicamp - February/2007 to December/2010
+        \textbf{Technician in Eletronics} - Cotuca/Unicamp - 02/2007 to 12/2010
 
 %         Grade Point Average: 7.3  (0-10)
 
       \item  
-        \textbf{Technician in Informatics} - Cotuca/Unicamp - February/2003 to December/2006
+        \textbf{Technician in Informatics} - Cotuca/Unicamp - 02/2003 to 12/2006
 
         Emphasis in Support Systems
 
@@ -121,24 +138,30 @@
 
   \section{Languages}
     \begin{itemize}
-      \item  
+
+      \item
+        \textbf{Portuguese} - Native Speaker.
+
+      \item
         \textbf{English} - Advanced Level.
 
-        109/120 points on TOEFL iBT (November/2008).
+        109/120 points on TOEFL iBT (11/2008).
 
-      \item  
-        \textbf{Portuguese} - Native Speaker.
     \end{itemize}
 
 
 
   \section{Some personal Projects}
     \begin{itemize}
+
       \item
-        \textbf{u2fdev} FIDO U2F authenticator, with various storage backends (stateless, SQLite) and authentication methods (none, notification, biometric). Android app supporting NFC and Bluetooth is under development.
+        \textbf{u2fdev} FIDO authenticator running on microcontrollers, Android and linux.
 
       \item
         \textbf{MongoFS} and \textbf{SpotifyFS}- FUSE filesystems to manage documents in Mongo databases as JSON files and play Spotify songs as MP3 files.
+
+      \item
+        \textbf{aionettools} Network-related tools written in asyncio Python. Currently supports ping for measuring latency/loss and NDT7 for measuring download/upload speed.
 
       \item
         \textbf{Contour Curves for Highcharts} - Plugin to the popular Highcharts library to plot 2-D and 3-D contour curves.
@@ -156,7 +179,7 @@
         \textbf{Space Wars} - StarWars-like 3-D space battle game writen with Java + OpenGL + OpenAL.
 
       \item
-        \textbf{Mini-MIPS} - MIPS-like multi-cycle microprocessador. Everything was developed, from behavioral VHDL to physical layout. Used GHDL, Cadence Encounter and Cadence Virtuoso.
+        \textbf{Mini-MIPS} - A MIPS-like multi-cycle microprocessador, developed all the way from behavioral VHDL to physical layout. Used GHDL, Cadence Encounter and Cadence Virtuoso.
 
       \item
         \textbf{Rabiscomatic} - Plotter assembled from old printers and a ARM microcontroller.
@@ -167,7 +190,6 @@
       \item
         \textbf{3D Wohoo} - Libraries for drawing 2-D and 3-D computer graphics, built from the scratch in Pascal/Delphi and Java.
     \end{itemize}
-
 
 
 %   \section{Programming Contests}
@@ -195,8 +217,8 @@
 %       \item
 %         \textbf{OBI – Brazilian Olympiads in Informatics}
 %         \begin{itemize}
-%           \item 2003 (Silver), 2004 (Golden), 2005 (Bronze), 2006 (Golden)
-%           \item 2010 and 2011 - Worked on the programming courses.
+%           \item 2003 (Silver), 2004 (Gold), 2005 (Bronze) and 2006 (Gold)
+%           \item 2010 and 2011 - Helped on the programming courses.
 %         \end{itemize}
 %       \item
 %         \textbf{Google Code Jam Latin America}
@@ -204,9 +226,9 @@
 %           \item 2007 – 80$^{th}$ position
 %         \end{itemize}
 %     \end{itemize}
-%
-%
-%
+
+
+
 %   \section{Courses Taken}
 %     \begin{itemize}
 %       \item
